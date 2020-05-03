@@ -4,12 +4,13 @@
         <title>this is the random password generator</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="scripts.js"></script>
     </head>
     <body>
         <h1 class="header">Random Password Generator!</h1>
         <span class="startbutton">
-            <button type="button" class="btn btn-primary btn-lg">Start!</button>
+            <button type="button" class="btn btn-primary btn-lg" onclick="start()">Start!</button>
         </span>
-        <p class="pwText">Password replaces this text</p>
+        <p id="pwText">Password replaces this text</p>
     </body>
 </html>
